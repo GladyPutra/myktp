@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/txtAddNewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="false"
+        android:paddingLeft="20px"
+        android:paddingTop="20px"
+        android:text="DETAIL CITIZEN"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@color/button"
+        android:textColor="@color/colorText"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:text="Fullname"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/edfullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(Fullname)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIK"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/ednik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(NIK)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+          <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(Gender)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place of Birth"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(Place)"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birth Date"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/edBirthDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(BirthDate)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edBlood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(Blood)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(Address)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(Job)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(Status)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(State)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+            
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(Distance)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+            
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Image"
+                android:textColor="@color/textTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edMatrix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15px"
+                android:layout_marginTop="15px"
+                android:text="(Matrix)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="20px"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnFinish"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.20"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/button"
+                    android:textColor="@color/btnText"
+                    android:text="Finish" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>
